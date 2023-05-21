@@ -162,7 +162,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sobreimg {
-    border-radius: 10%;
+    border-radius: 20%;
     position: relative;
     width: 50%;
     display: inline-block;
@@ -212,7 +212,7 @@ body::-webkit-scrollbar-thumb {
         font-size: 25px;
     }
 
-    .input{
+    .input {
         margin-top: 15px;
     }
 }
@@ -271,4 +271,56 @@ body::-webkit-scrollbar-thumb {
     font-size: 25px;
     background-color: rgb(231, 57, 94);
     color: white;
+}
+
+/* Reviews */
+
+.review {
+    align-items: center;
+    text-align: center;
+}
+
+.tituloreview {
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 18%;
+}
+
+.cards {
+    align-items: center;
+    display: flex;
+    left: 4%;
+    position: relative;
+}
+
+
+.cardreview {
+    border-radius: 10%;
+    align-items: center;
+    width: 350px;
+    height: 450px;
+    margin-left: 50px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(56, 56, 56, 0.507);
+    
+}
+
+.imgdesconto {
+    border-radius: 10%;
+    align-items: center;
+    top: 5%;
+    position: relative;
+}
+
+
+
+
+
+
+.fundo{
+    background-color: transparent;
+    height: 400px;
+    margin-top: 20%;
 }
