@@ -191,6 +191,13 @@ body::-webkit-scrollbar-thumb {
         display: none;
     }
 
+    .lanchetitulo {
+        text-align: center;
+        left: 0%;
+        margin-left: -20%;
+        margin-right: auto;
+    }
+
     .texto {
         top: 50px;
     }
@@ -278,6 +285,7 @@ body::-webkit-scrollbar-thumb {
 .review {
     align-items: center;
     text-align: center;
+
 }
 
 .tituloreview {
@@ -304,7 +312,7 @@ body::-webkit-scrollbar-thumb {
     margin-left: 50px;
     backdrop-filter: blur(10px);
     background-color: rgba(56, 56, 56, 0.507);
-    
+
 }
 
 .imgdesconto {
@@ -316,10 +324,33 @@ body::-webkit-scrollbar-thumb {
 
 
 
+@media screen and (max-width:720px) {
+    .tituloreview {
+        margin-top: 50%;
+    }
+
+    .cards {
+        margin-top: 20%;
+        display: inline;
+        left: auto;
+        right: auto;
+    }
+
+    .cardreview {
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
+}
 
-.fundo{
+.imagens {
+    margin-top: 700px;
+    position: relative;
+}
+
+.fundo {
     background-color: transparent;
     height: 400px;
     margin-top: 20%;
